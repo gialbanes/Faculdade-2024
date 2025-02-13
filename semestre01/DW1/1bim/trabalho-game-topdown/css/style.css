@@ -1,0 +1,658 @@
+    body{
+        background-color: #fff8ca;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #img-fundo{
+        width: 1280px;
+        height: 720px;
+        margin-left: 115px;
+        position: absolute;
+        z-index: 1;
+        border-radius: 20px;
+    }
+    #anima-div{
+        height: 140px;
+        width: 102px;
+        background: url("../imgs/personagem1.png") -14px -20px;
+        position: absolute;
+        z-index: 2;
+        animation: anima-sprite 8s steps(4) infinite;    
+    }
+    @keyframes anima-sprite {
+        0% {
+            margin-top: 520px; 
+            margin-left: 400px; 
+            background-position-x: -408px;
+        }
+
+        4% {
+            margin-top: 520px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+
+        5% {
+            margin-top: 520px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        6% {
+            margin-top: 520px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        7% {
+            margin-top: 520px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        8% {
+            background: url("../imgs/personagem3.png") -7px -24px; 
+            margin-top: 310px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        9% {
+            background: url("../imgs/personagem3.png") -7px -24px; 
+            margin-top: 310px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        10% {
+            background: url("../imgs/personagem3.png") -7px -24px; 
+            margin-top: 310px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        11% {
+            background: url("../imgs/personagem3.png") -7px -24px; 
+            margin-top: 310px; 
+            margin-left: 700px; 
+            background-position-x: -408px; 
+        }
+        12% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 270px; 
+            margin-left: 1130px; 
+            background-position-x: -408px;
+        }
+        13% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 270px; 
+            margin-left: 1130px; 
+            background-position-x: -408px;
+        }
+        14% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 270px; 
+            margin-left: 1130px; 
+            background-position-x: -408px;
+        }
+        15% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 270px; 
+            margin-left: 1130px; 
+            background-position-x: -408px;
+        }
+        16% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 100px; 
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        17% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 100px; 
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        18% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 100px; 
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        19% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 100px; 
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        20% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+        }
+        21% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+        }
+        22% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+        }
+        23% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+        }
+        24% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 30px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        25% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 30px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        26% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 30px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        27% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 30px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        28%{
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        29%{
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        30%{
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        31%{
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 100px;
+            margin-left: 1070px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        32%{
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 100px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        33%{
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 100px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        34%{
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 100px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        35%{
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 100px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        36% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        37% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        38% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        39% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 1130px;
+            background-position-x: -408px;
+        }
+        40% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+        }
+        41% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+        }
+        42% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+        }
+        43% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+        }
+        44% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 230px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        45% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 230px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        46% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 230px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        47% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 230px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        48% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        49% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        50% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        51% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 290px;
+            margin-left: 940px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        52% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        53% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        54% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        55% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 290px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        56% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        57% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        58% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        59% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 780px;
+            background-position-x: -408px;
+        }
+        60% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        61% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        62% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        63% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        64% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 130px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        65% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 130px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        66% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 130px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        67% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 130px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        68% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        69% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        70% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        71% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 180px;
+            margin-left: 700px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        72% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        73% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        74% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        75% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 180px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        76% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        77% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        78% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        79% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 620px;
+            background-position-x: -408px;
+        }
+        80% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+        }
+        81% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+        }
+        82% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+        }
+        83% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+        }
+        84% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        85% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        86% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        87% {
+            background: url("../imgs/personagem3.png") -7px -24px;
+            margin-top: 200px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 0;
+        }
+        88% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        89% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        90% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        91% {
+            background: url("../imgs/personagem4.png") -8px -14px;
+            margin-top: 280px;
+            margin-left: 420px;
+            background-position-x: -408px;
+            z-index: 2;
+        }
+        92% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 290px;
+            margin-left: 680px;
+            background-position-x: -408px;
+        }
+        93% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 290px;
+            margin-left: 680px;
+            background-position-x: -408px;
+        }
+        94% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 290px;
+            margin-left: 680px;
+            background-position-x: -408px;
+        }
+        95% {
+            background: url("../imgs/personagem1.png") -14px -20px;
+            margin-top: 290px;
+            margin-left: 680px;
+            background-position-x: -408px;
+        }
+        96% {
+            background: url("../imgs/personagem4.png") -13px -10px;
+            margin-top: 520px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        97% {
+            background: url("../imgs/personagem4.png") -13px -10px;
+            margin-top: 520px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        98% {
+            background: url("../imgs/personagem4.png") -13px -10px;
+            margin-top: 520px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        99% {
+            background: url("../imgs/personagem4.png") -13px -10px;
+            margin-top: 520px;
+            margin-left: 700px;
+            background-position-x: -408px;
+        }
+        100% {
+            background: url("../imgs/personagem2.png") -13px -10px;
+            margin-top: 520px; 
+            margin-left: 400px; 
+            background-position-x: -408px;
+        }
+    }
+@media only screen and (min-width: 1200px){
+    #img-fundo{
+        width: 1280px;
+        height: 720px;
+        margin-left: 115px;
+        position: absolute;
+        z-index: 1;
+        border-radius: 20px;
+    }
+
+}

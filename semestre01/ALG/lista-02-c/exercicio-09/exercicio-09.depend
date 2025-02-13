@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1713565684 source:c:\users\fatec-dsm1\desktop\alg\lista-02-c\exercicio-09\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

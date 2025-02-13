@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1713287048 source:c:\users\giova\onedrive\Área de trabalho\2024\alg\lista-02-c\exercicio-01\exercicio-01.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1584205420 source:c:\users\giova\onedrive\Área de trabalho\2024\alg\lista-02-c\exercicio-01\main.c
+	<stdio.h>
+	<stdlib.h>
+

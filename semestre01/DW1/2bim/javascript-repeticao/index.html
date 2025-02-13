@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heróis - Repetição</title>
+</head>
+<body>
+    <script>
+        //for(n=1; n<=5; n++){document.write(n + "<br>")}
+
+        universo = "dc";
+        heroi_dc = "batman";
+        heroi_marvel= "hulk";
+
+        universo_digitado = prompt("Digite o universo desejado:");
+        if(universo_digitado == "dc"){
+            heroi = prompt("Digite o herói da dc que você deseja visualizar:");
+            qtd = prompt("Digite a quantidade de vezes que você deseja visualizar o herói escolhido:");
+            for(n=1; n<=qtd; n++){
+                document.write("O universo escolhido foi a DC e o heroi foi " + heroi_dc + "<br>");
+            }
+        } else if(universo_digitado == "marvel"){
+            heroi = prompt("Digite o herói da marvel que você deseja visualizar:");
+            qtd = prompt("Digite a quantidade de vezes que você deseja visualizar o herói escolhido:");
+            for(n=1; n<=qtd; n++){
+                document.write(heroi_marvel + "<br>");
+            }
+        } else{
+            document.write("Inválido")
+        }
+
+    </script>
+</body>
+</html>

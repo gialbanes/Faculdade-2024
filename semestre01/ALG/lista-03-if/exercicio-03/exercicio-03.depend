@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1713797972 source:c:\users\giova\onedrive\Área de trabalho\2024\alg\lista-03-if\exercicio-03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<math.h>
+

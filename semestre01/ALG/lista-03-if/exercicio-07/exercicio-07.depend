@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1713820447 source:c:\users\fatec-dsm1\desktop\alg\1bim\lista-03-if\exercicio-07\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

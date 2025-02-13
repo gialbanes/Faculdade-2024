@@ -1,0 +1,17 @@
+@media only screen and (min-width: 600px){
+    img{
+        filter: blur(2px);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    img{
+        filter: contrast(0.2);
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    img{
+        filter: opacity(0.5);
+    }
+}
